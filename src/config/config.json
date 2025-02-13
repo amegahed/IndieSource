@@ -1,0 +1,7 @@
+{
+	"servers": {
+		"authentication": "services/public/api",
+		"api": "services/public/api",
+		"images": "images"
+	}
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+	<defs>
+		<style>
+			#petals circle {
+				stroke: white;
+				stroke-width: 25;
+			}
+			#center circle {
+				fill: hsl(60, 100%, 50%);
+				stroke: white;
+				stroke-width: 25;
+			}
+		</style>
+	</defs>
+
+	<rect width="512" height="512" fill="hsl(200, 100%, 66%)" style="display:none" />
+
+	<g id="petals">
+		<circle transform="translate(256, 256) rotate(30)" cx="0" cy="-160" r="80" fill="hsl(0, 100%, 66%)" />
+		<circle transform="translate(256, 256) rotate(90)" cx="0" cy="-160" r="80" fill="hsl(30, 100%, 66%)" />
+		<circle transform="translate(256, 256) rotate(150)" cx="0" cy="-160" r="80" fill="hsl(120, 75%, 66%)" />
+		<circle transform="translate(256, 256) rotate(210)" cx="0" cy="-160" r="80" fill="hsl(180, 75%, 66%)" />
+		<circle transform="translate(256, 256) rotate(270)" cx="0" cy="-160" r="80" fill="hsl(240, 75%, 66%)" />
+		<circle transform="translate(256, 256) rotate(330)" cx="0" cy="-160" r="80" fill="hsl(300, 75%, 66%)" />
+	</g>
+
+	<g id="center">
+		<circle cx="256" cy="256" r="80" />
+	</g>
+</svg>

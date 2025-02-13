@@ -1,0 +1,24 @@
+/***************************************************************\
+|                          font styles                          |
+\***************************************************************/
+
+@font-face {
+	font-family: 'Solway';
+	src: url('Solway-Light.ttf') format('truetype');
+	font-weight: light;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Solway';
+	src: url('Solway-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Solway';
+	src: url('Solway-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}

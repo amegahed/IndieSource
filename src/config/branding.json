@@ -1,0 +1,212 @@
+{
+	"name": "IndieSource",
+	"title": "IndieSource",
+
+	"header": {
+		"background": "transparent",
+		"height": 50,
+		"color": "var(--primary-color)",
+
+		"brand": {
+			"logo": {
+				"src": "images/logos/logo.svg",
+				"border": "rounded",
+				"height": 40
+			},
+
+			"logotype": {
+				"font": "Solway",
+
+				"names": {
+					"Indie": {
+						"font_size": "125%",
+						"color": "var(--primary-color)"
+					},
+					"Source": {
+						"font_size": "125%",
+						"color": "orange"
+					}
+				}
+			}
+		},
+
+		"nav": {
+			"About": {
+				"icon": "fa fa-info-circle",
+				"href": "#about"
+			},
+			"License": {
+				"icon": "fa fa-gavel",
+				"href": "#license"
+			},
+			"Goals": {
+				"icon": "fa fa-list",
+				"href": "#goals"
+			},
+			"Benefits": {
+				"icon": "fa fa-smile",
+				"href": "#benefits"
+			},
+			"Indies": {
+				"icon": "fa fa-user",
+				"href": "#indies",
+				"platform": "desktop-only"
+			},
+			"Contact": {
+				"icon": "fa fa-envelope",
+				"href": "#contact",
+				"platform": "desktop-only"
+			}
+		},
+
+		"buttons": {
+			"show_theme": true
+		}
+	},
+
+	"welcome": {
+		"background2": "linear-gradient(to bottom, hsla(250, 30%, 60%, 0%) 33%, hsla(250, 30%, 66%, 50%) 100%)",
+		"template": "templates/welcome.tpl",
+
+		"splash": {
+			"background": "transparent",
+			"brand": {
+				"logo": {
+					"src": "images/logos/logo.svg",
+					"background2": "hsla(250, 30%, 75%, 20%)",
+					"background2": "black",
+					"transform": "scale(1.5)",
+					"border": "rounded",
+					"margin_bottom": 30,
+					"filter2": "drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25))"
+				},
+
+				"logotype": {
+					"font": "Solway",
+
+					"names": {					
+						"Indie": {
+							"color": "var(--primary-color)"
+						},
+						"Source": {
+							"color": "orange"
+						}
+					}
+				}
+			},
+
+			"tagline": {
+				"text": "Software Licensing For Healthier, Fairer and More Diverse Tech Ecosystem"
+			}
+		}
+	},
+
+	"page": {
+		"background": "",
+		"theme": "",
+		"font": "",
+
+		"heading1": {
+			"color": "orange"
+		},
+
+		"heading2": {
+			"color": "orange"
+		},
+
+		"heading3": {
+			"color": "orange"
+		},
+
+		"footer": {
+			"background": "hsl(240, 25%, 25%)",
+			"color": "rgb(160, 160, 192)",
+
+			"brand": {
+				"logo": {
+					"src": "images/logos/logo.svg",
+					"height": 150,
+					"background2": "black",
+					"border": "rounded",
+					"filter2": "drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25))"
+				},
+
+				"logotype": {
+					"font": "Solway",
+
+					"names": {
+						"Indie": {
+							"color": "var(--primary-color)"
+						},
+						"Source": {
+							"color": "orange"
+						}
+					}
+				}
+			},
+
+			"info": {
+				"Info": {
+					"icon": "fa fa-search",
+					"color": "orange",
+					"font_weight": "normal",
+
+					"links": {
+						"About": {
+							"icon": "fa fa-info-circle",
+							"href": "#about"
+						},
+						"Goals": {
+							"icon": "fa fa-list",
+							"href": "#goals"
+						},
+						"Benefits": {
+							"icon": "fa fa-smile",
+							"href": "#benefits"
+						}
+					}
+				},
+
+				"Downloads": {
+					"icon": "fa fa-file-text",
+					"color": "orange",
+					"font_weight": "normal",
+
+					"links": {
+						"LICENSE.txt": {
+							"icon": "fa fa-file-text",
+							"href": "downloads/LICENSE.txt"
+						},
+						"LICENSE.md": {
+							"icon": "fa fa-file-text",
+							"href": "downloads/LICENSE.md"
+						}
+					}
+				},
+
+				"Help": {
+					"icon": "fa fa-question-circle",
+					"color": "orange",
+					"font_weight": "normal",
+
+					"links": {
+						"Contact Us": {
+							"icon": "fa fa-envelope",
+							"href": "#contact"
+						}
+					}
+				}
+			}
+		}
+	},
+
+	"footer": {
+		"background": "var(--primary-color)",
+		"color": "white",
+		"copyright": {
+			"year": "2024",
+			"url": "http://indiesource.org",
+			"entity": "IndieSource.org"
+		}
+	}
+}
