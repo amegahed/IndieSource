@@ -9,6 +9,17 @@ IndieSource is a software license that is designed to counter the trends towards
 ![Screen Shot](images/screen-shots/welcome.png)
 Welcome Screen
 
+## Live Demo
+
+You can create an account and explore the features and benefits of the platform at [indiesource.org](https://indiesource.org).
+
+## Installation
+
+To install and run the application, just type:
+```
+docker compose up --build
+```
+
 ## License
 
 Distributed under the <a href="https://indiesource.org/">IndieSource License</a> which allows unrestricted use of the software except by very large corporations. See [LICENSE.md](LICENSE.md) for more information.
